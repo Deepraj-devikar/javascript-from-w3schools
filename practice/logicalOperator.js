@@ -55,3 +55,25 @@ function logName(name) {
 }
 
 logName(); //logs "Mark"
+
+/**DOCUMENT OBJECT MODEL
+ * DOCUMENT OBJECT MODEL is interface or API for HTML or XML 
+ * it is a tree like structure that modeled from HTML or XML
+ */
+
+/**EVENT PROPOGATION
+ * when an event occur on DOM element it dose not occur in one element only
+ * Event Propogation have 3 phases:- 
+ * 1) Capturing Phase
+ * 2) Target Phase
+ * 3) Bubbeling Phase
+ * 
+ * =>Capturing Phase:- 
+ * event starts from window and then goes down to every element until it reach to target element
+ * 
+ * =>Target Phase:-
+ * event has reach to target element
+ * 
+ * =>Bubbeling Phase:-
+ * event goes up from target element to window
+ */
