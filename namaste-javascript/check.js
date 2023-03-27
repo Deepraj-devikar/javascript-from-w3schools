@@ -10,6 +10,7 @@ function getName() //outer function
     e = 100;
     getAge();//inner function
 }
+let c = 10;
 function getAge()
 {
     console.log(f);
@@ -22,6 +23,8 @@ function getAge()
 
     // console.log(d);
     const d = 40;
+
+    console.log(c);
 }
 getName();
-
+console.log(c);
