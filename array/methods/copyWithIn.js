@@ -18,6 +18,7 @@ const array1 = ['Deepraj', 'Anjay', 'Sunil', 'Aman', 'Sidhonand', 'Sidhart'];
 
 console.log('before operation:- ', array1);
 
-array1.copyWithin(2, 1, 0);
+array1.copyWithin(2, 3, 1);
 
 console.log('after operation:- ', array1);
+
